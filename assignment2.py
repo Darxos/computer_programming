@@ -3,6 +3,8 @@ medium=4.50
 large=5.50
 total=0
 print('=== Coffee Shop Order System ===')
+print('Enter drink sizes: small, medium, or large')
+print('Type done when finished ordering')
 enter=input('Enter drink size:')
 while enter!='done':
     if enter=='small':
